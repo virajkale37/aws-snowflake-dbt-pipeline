@@ -1,0 +1,15 @@
+models:
+  - name: bronze_bookings
+    columns:
+      - name: booking_id
+        tests:
+          - not_null
+          - unique
+
+      - name: BOOKING_AMOUNT
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: "{{ BOOKING_AMOUNT }} >= 0"
+
+      

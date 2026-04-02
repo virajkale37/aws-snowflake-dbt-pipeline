@@ -1,0 +1,13 @@
+AWS_SF_DBT_Project:
+  outputs:
+    dev:
+      account: VSVULPK-QU49403
+      database: AIRBNB
+      password: Sanjivani@14321
+      role: ACCOUNTADMIN
+      schema: DEV
+      threads: 1
+      type: snowflake
+      user: VIRAJKALE2803
+      warehouse: COMPUTE_WH
+  target: dev

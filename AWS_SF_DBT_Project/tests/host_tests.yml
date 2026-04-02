@@ -1,0 +1,15 @@
+models:
+  - name: bronze_hosts
+    columns:
+      - name: host_id
+        tests:
+          - not_null
+          - unique
+
+      - name: RESPONSE_RATE
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: "{{ RESPONSE_RATE }} >= 0"
+
+      
