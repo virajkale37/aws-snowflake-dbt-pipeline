@@ -98,7 +98,7 @@ AWS S3 → Snowflake (Raw Layer) → dbt (Transformations) → Analytics Layer
 
 
 ## 📸 dbt DAG
-![dbt DAG](images/DBT_DAG.png)
+![dbt DAG](AWS_SF_DBT_Project/images/DBT_DAG.png)
 
 ## 📸 Snowflake Output
-![Snowflake](images/SNOWFLAKE_FACT.png)
+![Snowflake](AWS_SF_DBT_Project/images/SNOWFLAKE_FACT.png)
