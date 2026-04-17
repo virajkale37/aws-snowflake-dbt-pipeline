@@ -95,3 +95,10 @@ AWS S3 → Snowflake (Raw Layer) → dbt (Transformations) → Analytics Layer
 * Implement CI/CD pipeline
 * Add orchestration using Airflow
 * Enhance data quality checks
+
+
+## 📸 dbt DAG
+![dbt DAG](images/DBT_DAG.png)
+
+## 📸 Snowflake Output
+![Snowflake](images/SNOWFLAKE_FACT.png)
